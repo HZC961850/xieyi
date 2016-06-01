@@ -1,0 +1,18 @@
+
+#main {
+	width: 100%;
+	text-align: center;
+}
+#main .imgContact {
+	display: inline-block;
+	width: 24%;
+	margin: 10% auto 6%;
+}
+#main p {
+	color: #595757;
+	font-size: 1.4rem;
+	margin-bottom: 10px;
+}
+#main p:nth-of-type(5){
+	margin-bottom: 30%;
+}

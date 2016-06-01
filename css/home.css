@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+/*中间部分*/
+#main {
+	width: 100%;
+	margin:0 auto 10%;
+	overflow: hidden;
+}
+
+#service {
+	margin: 0 auto 75px;
+	text-align: center;
+	width: 34.5%;
+	height: 30px;
+}
+
+#service img {
+	width: 20%;
+	height: 2px;
+	float:left;
+	margin-top: 14px;
+}
+
+#service span {
+	font-family: YouYuan;
+	font-size:2.2rem;
+	font-weight: bold;
+	float: left;
+	line-height: 30px;
+	color: #616161;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#main .building {
+	width: 75%;
+	border-top: 1px solid #bfbfbf;
+	margin: 0 auto;
+}
+/*第一个*/
+#main .buildingOne,.buildingThree{
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #bfbfbf;
+	overflow: hidden;
+}
+#main .buildingImgOne,.buildingImgThree {
+	width: 65%;
+	height: 100%;
+	position: relative;
+}
+#main .ImgBlackOne {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#main .ImgColorOne {
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#main .buildingImg .blankOne,.blankThree {
+	position: absolute;
+	top: 0;
+	left: 65%;
+	height: 100%;
+	width: 20px;
+	background-color: #e1e1e1;
+}
+#main .buildingTextOne,.buildingTextThree {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 33%;
+}
+#main .buildingTextOne span {
+	font-weight: bold;
+	font-size: 1.8rem;
+	font-family: YouYuan;
+	display: inline-block;
+	margin-top: 15%;
+	margin-left: 15px;
+}
+#main .buildingTextOne p {
+	font-size: 1.3rem;
+	font-family: YouYuan;
+	display: inline-block;
+	margin-left: 15px;
+	color: #757373;
+}
+/*第二个*/
+#main .buildingTwo{
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #bfbfbf;
+	overflow: hidden;
+}
+#main .buildingImgTwo {
+	width: 65%;
+	height: 100%;
+	position: relative;
+	float: right;
+}
+#main .ImgBlackTwo {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#main .ImgColorTwo {
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#main .buildingImg .blankTwo {
+	position: absolute;
+	top: 0;
+	right: 65%;
+	height: 100%;
+	width: 20px;
+	background-color: #e1e1e1;
+}
+#main .buildingTextTwo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 33%;
+}
+#main .buildingTextTwo span {
+	font-weight: bold;
+	font-size: 1.8rem;
+	font-family: YouYuan;
+	display: inline-block;
+	margin-top: 15%;
+	margin-right: 15px;
+}
+#main .buildingTextTwo p {
+	font-size: 1.3rem;
+	font-family: YouYuan;
+	display: inline-block;
+	margin-right: 15px;
+	color: #757373;
+}
+/*第三个*/
+#main .buildingTextThree span {
+	font-weight: bold;
+	font-size: 1.8rem;
+	font-family: YouYuan;
+	display: inline-block;
+	margin-top: 15%;
+	margin-left: 15px;
+}
+#main .buildingTextThree p {
+	font-size: 1.3rem;
+	font-family: YouYuan;
+	display: inline-block;
+	margin-left: 15px;
+	color: #757373;
+}
+#main .ImgBlackThree{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#main .ImgColorThree{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

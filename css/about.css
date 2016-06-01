@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+body {
+	background-color: #f5f5f5;
+}
+
+
+/*中间部分*/
+#main {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+#main .imgAbout {
+	width: 358px;
+	height: 358px;
+	margin: 90px auto 0;
+}
+
+#about {
+	margin: 0 auto 125px;
+	text-align: center;
+	width: 385px;
+	height: 30px;
+}
+
+#about img {
+	width: 120px;
+	height: 2px;
+	float: left;
+	margin-top: 14px;
+}
+
+#about span {
+	font-family: YouYuan;
+	font-size:2.2rem;
+	font-weight: bold;
+	float: left;
+	line-height: 30px;
+	color: #616161;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#main p {
+	display: inline-block;
+	width: 54%;
+	text-align: left;
+	margin: 0 auto;
+	font-size: 1.4rem;
+	font-family: YouYuan;
+	color: #818080;
+	margin-bottom: 45px;
+}
+
+
+
+

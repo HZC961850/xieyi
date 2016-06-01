@@ -1,0 +1,186 @@
+
+#wrapOne {
+	position: relative;
+}
+/*第一个*/
+#main .mainOne {
+	background: url("../img/bim-bg-9.png") no-repeat center 0;
+	width: 100%;
+	overflow: hidden;
+}
+/*这两个一和二可以通用*/
+#main .introduce {
+	margin-top: 20%;
+	margin-left: 17.5%;
+	width: 40%;
+}
+#main .introduce span {
+	font-size: 2rem;
+	background-color: #cfdb00;
+	text-align: center;
+	width: 40%;
+	font-family: YouYuan;
+	padding: 5px ;
+	color: gray;
+}
+
+#main .imgThree {
+	margin-bottom: 10%;
+	width: 100%;
+	text-align: center;
+	padding: 4%;
+}
+#main .imgThree img{
+	width: 20%;
+	float:left;
+	margin-right: -2%;
+	overflow: hidden;
+}
+
+/*第二个*/
+#main .mainTwo {
+	background: url("../img/bim-bg-10.png") no-repeat center 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+#main .imgTwo {
+	margin-top: 5%;
+	margin-bottom:32%; 
+	width: 100%;
+	text-align: center;
+	
+}
+
+#main .imgTwo img{
+	width: 40%;
+	float:left;
+	margin-right: 5%;
+	overflow: hidden;
+}
+
+/*第一个大塔*/
+#wrapOne .towerOne {
+	width: 34%;
+	position: absolute;
+	top: 2.2%;
+	right: 8%;
+}
+
+/*第三个*/
+#wrapTwo {
+	position: relative;
+	overflow: hidden;
+}
+#main .mainThree {
+	background: url("../img/bim-bg-11.png") no-repeat center 0;
+	width: 100%;
+	overflow: hidden;
+}
+/*下面两个可以三和四共用*/
+#main .text {
+	margin-top:15%;
+	margin-left: 37%;
+	width: 40%;
+}
+#main .text span {
+	font-size: 2rem;
+	background-color: #cfdb00;
+	text-align: center;
+	width: 40%;
+	font-family: YouYuan;
+	padding: 5px ;
+	color: gray;
+}
+#main .imgHome {
+	margin-top: 10%;
+	margin-bottom:27%; 
+	width: 100%;
+	text-align: center;
+}
+
+#main .imgHome img{
+	width: 40%;
+	float:left;
+	margin-right: 5%;
+	overflow: hidden;
+}
+
+/*第四个*/
+#main .mainFour {
+	background: url("../img/bim-bg-12.png") no-repeat center 0;
+	width: 100%;
+	overflow: hidden;
+}
+#main .imgWindow {
+	margin-top: 8%;
+	margin-bottom:15%; 
+	width: 100%;
+	text-align: center;
+}
+
+#main .imgWindow img{
+	width: 50%;
+	margin-top: 5%;
+	overflow: hidden;
+}
+/*第二个大塔*/
+#wrapTwo .towerTwo {
+	width: 34%;
+	/*height: 55%;*/
+	position: absolute;
+	top: 2%;
+	left: 3%;
+}
+
+/*第五个*/
+#main .mainFive {
+	background: url("../img/bim-bg-13.png") no-repeat center 0;
+	width: 100%;
+	overflow: hidden;
+}
+#main .lastText {
+	margin-top: 25%;
+	margin-left: 17.5%;
+	margin-bottom: 20%;
+	width: 40%;
+}
+#main .lastText span {
+	font-size: 2rem;
+	background-color: #cfdb00;
+	text-align: center;
+	width: 40%;
+	font-family: YouYuan;
+	padding: 5px ;
+	color: gray;
+}
+/*第三个大塔*/
+#wrapTwo .towerThree {
+	width: 34%;
+	/*height: 55%;*/
+	position: absolute;
+	bottom:9.1%;
+	right: 3%;
+}
+
+/*返回顶部*/
+.block {
+  position: relative;
+}
+.block img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+

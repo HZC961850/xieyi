@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BIM</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bim.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" href="css/different.css" media="only screen and (max-width: 1035px)"/>
+</head>
+<body>
+	<!-- 导航栏 -->
+
+			<nav>
+				<div class="clearfix">
+					<div class="logo"></div>
+					<!-- 导航栏菜单 -->
+					<div class="box clearfix">
+						<a href="home.html">Home</a>
+						<a href="about.html">ABOUT</a>
+						<a href="renderings.html">Renderings</a>
+						<a href="bim.html">BIM</a>
+						<a href="3Danimate.html">3D Animate</a>
+						<a href="contact.html">Contact</a>
+						<a href="javascript:void(0);"><span></span></a>
+					</div>
+					<!-- 点开后的菜单 -->
+					<ul class="menu">
+						<li><a href="home.html">Home</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="renderings.html">Renderings</a></li>
+						<li><a href="bim.html">BIM</a></li>
+						<li><a href="3Danimate.html">3D Animate</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				
+			</nav>
+
+	<!-- 中间部分 -->
+		<div id="main">
+			<!-- BIM -->
+			<h2 class="title">BIM</h2>
+		<div id="wrapOne">
+			<!-- 第一个部分 -->
+			<section class="part">
+			<div class="mainOne">
+				<div class="introduce">
+					<span>1. MODEL COMPLETION</span><br><br>
+					<P>Establishing and creating the visible and multi-dimension Architecture, <br>Structural and MEP model.</P>
+					<div class="imgThree clearfix">
+						<img src="img/bim-4.png" class="imgFirst">
+						<img src="img/bim-4-1.png" class="imgSecond">
+						<img src="img/bim-4-2.png" class="imgThird">
+					</div>	
+				</div>
+			</div>
+			</section>
+			<!-- 第二个部分 -->
+			<section class="part">
+			<div class="mainTwo">
+				<div class="introduce">
+					<span>2. CLASH DETECTION</span><br><br>
+					<P>Completing the clash detection among various design parties,engineers and even different organisations in construction drawings.</P>
+					<div class="imgTwo clearfix">
+						<img src="img/bim-5.jpg" class="imgFirst">
+						<img src="img/bim-5-1.png" class="imgSecond">
+					</div>	
+				</div>
+			</div>
+			<img src="img/bim-3.jpg" class="towerOne">
+		</div>
+		</section>
+
+		<div id="wrapTwo">
+			<!-- 第三个部分 -->
+			<section class="part">
+			<div class="mainThree">
+				<div class="text">
+					<span>3.MEP INTEGRATION</span><br><br>
+					<p>Profoundly completing the pipeline integration, design coordination and intra-organisational cooperation between Plumbing, HVAC and Electrical engineering.</p>
+					<div class="imgHome clearfix">
+						<img src="img/bim-6.jpg" class="imgFirst">
+						<img src="img/bim-6-1.png" class="imgSecond">	
+					</div>
+				</div>
+			</div>
+			</section>
+
+			<!-- 第四个部分 -->
+			<section class="part">
+			<div class="mainFour">
+				<div class="text">
+					<span>4.CURTAIN WALL REMEDYING</span><br><br>
+					<p>Creating the abnormity wall based on parametric design tools, and completing detailed curtain wall nodes visibly.</p>
+					<div class="imgWindow clearfix">
+						<img src="img/bim-8.jpg" class="imgFirst">
+						<img src="img/bim-8-1.png" class="imgSecond">	
+					</div>
+				</div>
+			</div>
+			<img src="img/bim-1.jpg" class="towerTwo">
+			</section>
+
+			<!-- 第五个部分 -->
+			<section class="part">
+			<div class="mainFive">
+				<div class="lastText">
+					<span>5.BIM CONSULTINGS</span><br><br>
+					<p>To help you to precisely know what is BIM? How BIM use? When and who is suitably to implement BIM? </p>
+				</div>
+			</div>
+			<img src="img/bim-2.jpg" class="towerThree">
+		</div>	
+		</section>
+		
+		<!-- 返回顶部 -->
+		<div class="block">
+			<img src="img/drawing-huitop.png" alt="" />
+		</div>
+
+		</div>
+
+
+	<!-- 底下的部分 -->
+	<footer id="footer">
+		<section>
+			<h2 class="title">CONTACT US</h2>
+			<p>Email：eric@shining365.com</p>
+			<p>Mobile Phone：86 138 1690 3400</p>
+			<p>Tel：
+				<a href="tel:021-65986866-304">+86 21 6598 6866-304</a> 
+				<a href="tel:021-65983188-304">+86 21 6598 3188-304</a>
+			</p>
+		</section>
+		<div class="bottom">
+			Copyright&copy;1998-2015 shining Group
+		</div>
+	</footer>
+	
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript">
+		// 返回顶部
+	$(".block img").click(function(){
+		$("html,body").animate({
+			scrollTop:0
+		},1000);
+	});
+	
+	// 滚动为一屏
+	$(function() {
+		//动态设置为一屏的高度
+		$(".part ").height($(window).height());
+		var pos = [];
+		$(".part").each(function(index,key) {
+			//获取每一部分的文档坐标
+			pos.push(parseInt($(key).position().top))
+		})
+		console.log(pos)
+
+		$(document).bind("mousewheel DOMMouseScroll",function(e) {
+			//绑定事件，mousewheel,DOMMouseScroll
+			//e.originalEvent原生的事件对象
+			// console.log(e.originalEvent)
+			e.preventDefault();//阻止默认事件
+			var sTop = $(document).scrollTop();
+			if(e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+				//滚轮向上的时候
+				if(sTop <= pos[0]) {
+					$("html,body").stop().animate({
+						scrollTop:0
+					})
+				}else if(sTop <= pos[1] && sTop > pos[0]) {
+					$("html,body").stop().animate({
+						scrollTop:pos[0]
+					})
+				}else if(sTop <= pos[2] && sTop > pos[1]) {
+					$("html,body").stop().animate({
+						scrollTop:pos[1]
+					})
+				}else if(sTop <= pos[3] && sTop > pos[2]) {
+					$("html,body").stop().animate({
+						scrollTop:pos[2]
+					})
+				}else if(sTop <= pos[4] && sTop > pos[3]) {
+					$("html,body").stop().animate({
+						scrollTop:pos[3]
+					})
+				}else if(sTop <= $("#footer").position().top) {
+					$("html,body").stop().animate({
+						scrollTop:pos[4]
+					})
+				}
+			}else {
+				//滚轮向下的时候
+				if(sTop < pos[0]) {
+					$("html,body").stop().animate({
+						scrollTop:pos[0]
+					})
+				}else if(sTop >= pos[0] && sTop < pos[1]) {
+					$("html,body").stop().animate({
+						scrollTop:pos[1]
+					})
+				}else if(sTop >= pos[1] && sTop < pos[2]) {
+					$("html,body").stop().animate({
+						scrollTop:pos[2]
+					})
+				}else if(sTop >= pos[2] && sTop < pos[3]) {
+					$("html,body").stop().animate({
+						scrollTop:pos[3]
+					})
+				}else if(sTop >= pos[3] && sTop < pos[4]) {
+					$("html,body").stop().animate({
+						scrollTop:pos[4]
+					})
+				}else if(sTop >= pos[4]) {
+					$("html,body").stop().animate({
+						scrollTop:$("#footer").position().top
+					})
+				}
+			}
+		})
+
+		$(window).on("resize",function() {
+			$(".part ").height($(window).height());
+			pos = [];
+			$(".part").each(function(index,key) {
+				//获取每一部分的文档坐标
+				pos.push(parseInt($(key).position().top))
+			})
+		})
+	})
+	</script>
